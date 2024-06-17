@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WARTEG Marapat</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Warteg<span>MARAPAT</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="views/menu.html">Menu</a>
+        <a href="views/about.html">About Us</a>
+        <a href="views/contact.html">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--hero section-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari nikmati Makanan di<br>Warteg <span>Marapat</span></h1>
+        <p>
+        </p>
+        <a href="views/menu.html" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--Menu-->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Beberapa menu yang bisa dipilih. Selengkapnya bisa klik di <a href="views/menu.html" style="color: aliceblue;">sini</a>
+      </p>
+
+      <!--slider-->
+      <section class="product"> 
+        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+        <div class="product-container">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/ayam bakar.jpg" class="product-thumb" alt="">
+              <button class="card-btn"onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Ayam bakar</h2>
+              <p class="product-category">Makanan</p>
+              <span class="price">Rp. 6000</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/dadar.jpg" class="product-thumb" alt="">
+              <button class="card-btn"onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Telor Dadar</h2>
+              <p class="product-category">Makanan</p>
+              <span class="price">Rp. 5000</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/mie.jpg" class="product-thumb" alt="">
+              <button class="card-btn"onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Mie</h2>
+              <p class="product-category">Makanan</p>
+              <span class="price">Rp. 4000</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/telur asin.jpg" class="product-thumb" alt="">
+              <button class="card-btn" onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Telor Asin</h2>
+              <p class="product-category">Makanan</p>
+              <span class="price">Rp. 4000</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/1.jpg" class="product-thumb" alt="">
+              <button class="card-btn" onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Kopi</h2>
+              <p class="product-category">Minuman</p>
+              <span class="price">Rp. 3000</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/menu/esteh.jpg" class="product-thumb" alt="">
+              <button class="card-btn" onclick="FuncBeli()">Beli</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Es Teh</h2>
+              <p class="product-category">Minuman</p>
+              <span class="price">Gratis Setiap Pembelian</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--slider end-->
+    </section>
+    <!--Menu end-->
+    
+    <!--Contact-->
+    <section id="contact" class="contact">
+      <h2><span>Pemesanan</span> Meja</h2>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d990.4978365645742!2d108.32304283944416!3d-6.770906252474701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1681545877958!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama">
+          </div>
+          <div class="input-group">
+            <i data-feather="calendar"></i>
+            <input type="date" placeholder="Tanggal Resevasi">
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HP">
+          </div>
+          <button type="submit" class="btn" onclick="FuncReservasi()">Kirim Resevasi</button>
+        </form>
+      </div>
+    </section>
+    <!--Contact end-->
+
+    <!--Footer-->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="views/about.html">Tentang Kami</a>
+        <a href="views/menu.html">Menu</a>
+        <a href="views/contact.html">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">M. Ibrah Bayuara</a>. | &Copyright; 2023</p>
+      </div>
+    </footer>
+    <!--Footer end-->
+
+    <!--Feather Icon-->
+    <script>
+      feather.replace();
+    </script>
+    <!--js-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

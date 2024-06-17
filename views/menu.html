@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WARTEG Marapat</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Warteg<span>MARAPAT</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="../index.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact US</a>
+      </div>
+
+        <div class="navbar-extra">
+          <div class="search">
+            <div class="search-content">
+              <input type="text" class="search-input" name="" id="find" placeholder="Search here..." onkeyup="search()">
+              <button class="search-button"><i data-feather="search"></i></button>
+            </div>
+          </div>
+        <a href="#" id="search"></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+        <!--navbar end-->
+
+    <!--Menu-->
+    <section id="menu" class="menu">
+        <h2 style="margin-top: 2rem;"><span>Menu</span> Kami</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptas.
+        </p>
+  
+      <!--slider makanan-->
+        <h2>Maka<span>nan</span></h2>
+        <div class="row">
+          <div class="menu-card">
+            <img src="../img/menu/ayam bakar.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Ayam Bakar</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 6000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/ayam goreng.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Ayam Goreng</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 5000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/capcay.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Capcay</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 3000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/dadar.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Telor Dadar</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 4000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/ikan goreng.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Ikan Goreng</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 4000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/kangkung.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Kangkung</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 3000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/mie.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Mie</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 3000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/telor dadar.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Telor Dadar Spesial</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 5000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/telur asin.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Telor Asin</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 4000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/telur balado.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Telor Balado</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 4000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/tempe orek.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Tempe Orekr</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 3000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+          <div class="menu-card">
+            <img src="../img/menu/Terong Balado.jpg" alt="" class="menu-card-img">
+            <h3 class="menu-card-title">- Terong Balado</h3>
+            <h5 class="menu-card-category">Makanan</h5>
+            <p class="menu-card-price">Rp. 3000</p>
+            <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+          </div>
+        </div>
+      <!--slider makanan end-->
+
+      <!--slider Minuman-->
+
+      <h2>Minu<span>man</span></h2>
+      <div class="row">
+        <div class="menu-card">
+          <img src="../img/menu/cola.jpg" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Cola</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Rp. 3000</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+        <div class="menu-card">
+          <img src="../img/menu/es jeruk.jpg" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Es Jeruk</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Rp. 4000</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+        <div class="menu-card">
+          <img src="../img/menu/esteh.jpg" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Teh</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Gratis Tiap Pembelian</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+        <div class="menu-card">
+          <img src="../img/menu/1.jpg" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Rp. 3000</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+        <div class="menu-card">
+          <img src="../img/menu/teh botol.jpg" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Teh Botol</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Rp. 4000</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+        <div class="menu-card">
+          <img src="../img/menu/teh kotak.png" alt="" class="menu-card-img">
+          <h3 class="menu-card-title">- Teh Kotak</h3>
+          <h5 class="menu-card-category">Minuman</h5>
+          <p class="menu-card-price">Rp. 3000</p>
+          <button type="submit" class="btn" onclick="FuncBeli()">Beli</button>
+        </div>
+      </div>
+
+      <!--slider minumnan end-->
+    </section>
+      <!--Menu end-->
+
+        <!--Footer-->
+        <footer>
+            <div class="socials">
+              <a href="#"><i data-feather="instagram"></i></a>
+              <a href="#"><i data-feather="facebook"></i></a>
+            </div>
+            <div class="links">
+              <a href="../index.html">Home</a>
+              <a href="about.html">Tentang Kami</a>
+              <a href="#">Menu</a>
+              <a href="contact.html">Contact</a>
+            </div>
+            <div class="credit">
+              <p>Created by <a href="">M. Ibrah Bayuara</a>. | &Copyright; 2023</p>
+            </div>
+          </footer>
+          <!--Footer end-->
+      
+          <!--Feather Icon-->
+          <script>
+            feather.replace();
+          </script>
+          <script src="../js/script.js"></script>
+  </body>
+</html>
